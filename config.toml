@@ -1,0 +1,64 @@
+baseurl = "http://www.example.com"
+title = "James Kim • 김홍주"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "James Kim"
+    info = "Teacher . Learner . Coder"
+    description = "James Kim's personal website"
+    keywords = "blog,developer,personal"
+    avatarurl = "/img/avatar.jpg"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    # footercontent = " Hello! 👨🏻‍💻 I’m James, an English teacher, currently based in Seoul, Korea, learning to code. Welcome to my blog 🙂"
+
+    
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+    colorscheme = "auto"
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/eskimojamz/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/eskimojamz/"
+[[params.social]]
+    name = "Medium"
+    icon = "fab fa-medium fa-2x"
+    weight = 3
+    url = "https://twitter.com/eskimojamz/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/post/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
