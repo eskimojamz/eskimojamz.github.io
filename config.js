@@ -10,9 +10,6 @@ module.exports = {
   pages: {
     home: '/',
     blog: 'blog',
-    contact: 'contact',
-    resume: 'resume',
-    tag: 'tags',
   },
   social: {
     github: 'https://github.com/eskimojamz',

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://eskimojamz.github.io/sitemap.xml
+Host: https://eskimojamz.github.io

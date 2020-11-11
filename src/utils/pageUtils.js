@@ -36,7 +36,7 @@ const Utils = {
    * object from Graphql's query `allMarkdownRemark`
    * @param {number} limit The maximum number of suggested posts to get
    * @return {Array} The `postList` object sorted according to the best match with the `post` object
-   */
+≈
   getSuggestedPosts: (post, postList, limit) => {
     // Get the number of common tags with provided post.
     const getTagScore = (edge) => {
